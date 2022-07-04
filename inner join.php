@@ -100,3 +100,4 @@ while($row2 = $res2->fetch_array()){
 ?>
 </table>
 
+Q35 SELECT DISTINCT w.worker_id, w.first_name,w.salary,w.department FROM worker w,worker w1 WHERE w.salery=w1.salery AND w.worker_id != w1.worker_id
